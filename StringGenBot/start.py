@@ -12,26 +12,20 @@ async def start(bot: Client, msg: Message):
     me2 = (await bot.get_me()).mention
     await bot.send_message(
         chat_id=msg.chat.id,
-        text=f"""📟¦اهلا بـك عزيـزي 📬 {msg.from_user.mention},
+        text=f"""Hᴇʏ {msg.from_user.mention},
 
-📟¦اهلا بـك عزيـزي 📬
-⚡¦يـمكنك استـخـراج الـتـالـي
-♻️¦تيرمـكـس تليثون للحسـابـات🏂
-♻️¦تيرمـكـس تليثون للبوتــات🤖
-🎧¦بايـروجـرام مـيوزك للحسابات🙋🏼‍♂️
-🗽¦بايـروجـرام مـيوزك احدث اصدار🎊
-🎧¦بايـروجـرام مـيوزك للبوتات🤖
-- يعمـل هـذا البـوت لمساعدتـك بطريقـة سهلـه للحصـول على كـود تيرمكـس لتشغيل تلـيثون والبايروجرام لتشغيل سـورس اغــاني تم انشـاء هـذا البـوت بواسطـة
+Tʜɪs ɪs {me2},
+Aɴ ᴏᴘᴇɴ sᴏᴜʀᴄᴇ sᴛʀɪɴɢ sᴇssɪᴏɴ ɢᴇɴᴇʀᴀᴛᴏʀ ʙᴏᴛ, ᴡʀɪᴛᴛᴇɴ ɪɴ ᴩʏᴛʜᴏɴ ᴡɪᴛʜ ᴛʜᴇ ʜᴇʟᴩ ᴏғ ᴩʏʀᴏɢʀᴀᴍ.
 
-بواسطـة : [ٌٍꪎ.ًٍᘔٍᥱᎥٍَꪀ](tg://user?id=1355571767) !""",
+Mᴀᴅᴇ ᴡɪᴛʜ 🖤 ʙʏ : [𝝙𝗡𝗢𝗡𝗬𝗠𝗢𝗨𝗦](tg://user?id={OWNER_ID}) !""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton(text="🌐 ⍆ اضغط لبدا استخراج كود ⍅🌐", callback_data="generate")
+                    InlineKeyboardButton(text="🙄 ɢᴇɴᴇʀᴀᴛᴇ sᴇssɪᴏɴ 🙄", callback_data="generate")
                 ],
                 [
-                    InlineKeyboardButton("⚙ الــســــوࢪسـ ⚙️", url="https://t.me/pp_g3"),
-                    InlineKeyboardButton("ժᥱ᥎ ρ᥆kᥱꪔ᥆ꪀ", user_id=1355571767)
+                    InlineKeyboardButton("❣️ sᴏᴜʀᴄᴇ ❣️", url="https://github.com/AnonymousX1025/StringGenBot"),
+                    InlineKeyboardButton("🥀 ᴅᴇᴠᴇʟᴏᴩᴇʀ 🥀", user_id=OWNER_ID)
                 ]
             ]
         ),
