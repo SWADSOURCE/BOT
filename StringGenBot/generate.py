@@ -30,12 +30,12 @@ ask_ques = "**» • ذا كنـت تـريد تنـصيـب سـورس مـيو
 
 buttons_ques = [
     [
-        InlineKeyboardButton("ᴩʏʀᴏɢʀᴀᴍ", callback_data="pyrogram"),
-        InlineKeyboardButton("ᴛᴇʟᴇᴛʜᴏɴ", callback_data="telethon"),
+        InlineKeyboardButton("بايروجرام 🥀", callback_data="pyrogram"),
+        InlineKeyboardButton("تلثيون 🥀", callback_data="telethon"),
     ],
     [
-        InlineKeyboardButton("ᴩʏʀᴏɢʀᴀᴍ ʙᴏᴛ", callback_data="pyrogram_bot"),
-        InlineKeyboardButton("ᴛᴇʟᴇᴛʜᴏɴ ʙᴏᴛ", callback_data="telethon_bot"),
+        InlineKeyboardButton("بايروجرام بوت 🥀", callback_data="pyrogram_bot"),
+        InlineKeyboardButton("تلثيون بوت 🥀", callback_data="telethon_bot"),
     ],
 ]
 
