@@ -11,7 +11,7 @@
     "buildpacks": [{
     "url": "heroku/python"
   }],
-  "repository": "https://github.com/sourcesemsem/bot20",
+  "repository": "https://github.com/SWADSOURCE/BOT.git",
   "env": {
     "ENVIRONMENT": {
       "description": "Don't change ANYTHING.",
@@ -41,7 +41,7 @@
     "MUST_JOIN": {
       "description": "Username of a group or channel for which you want to set force sub.(without @)",
       "required": true,
-      "value": "DevilsHeavenMF"
+      "value": "S_325"
     },
     "BOT_TOKEN": {
       "description": "Get this value from @BotFather",
